@@ -1,0 +1,60 @@
+[submodule "pack/mycolors/opt/molokai_dark"]
+	path = pack/mycolors/opt/molokai_dark
+	url = https://github.com/fcevado/molokai_dark.git
+[submodule "pack/mycolors/opt/vim-material-monokai"]
+	path = pack/mycolors/opt/vim-material-monokai
+	url = https://github.com/skielbasa/vim-material-monokai.git
+[submodule "pack/mycolors/opt/vim-monokai-phoenix"]
+	path = pack/mycolors/opt/vim-monokai-phoenix
+	url = https://github.com/Reewr/vim-monokai-phoenix.git
+[submodule "pack/myplugins/start/csv.vim"]
+	path = pack/myplugins/start/csv.vim
+	url = https://github.com/chrisbra/csv.vim.git
+[submodule "pack/myplugins/start/delimitmate"]
+	path = pack/myplugins/start/delimitmate
+	url = https://github.com/raimondi/delimitmate
+[submodule "pack/myplugins/start/emmet-vim"]
+	path = pack/myplugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "pack/myplugins/start/indentline"]
+	path = pack/myplugins/start/indentline
+	url = https://github.com/yggdroot/indentline
+[submodule "pack/myplugins/start/nerdcommenter"]
+	path = pack/myplugins/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "pack/myplugins/start/nerdtree"]
+	path = pack/myplugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/myplugins/start/syntastic"]
+	path = pack/myplugins/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "pack/myplugins/start/tagbar"]
+	path = pack/myplugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/myplugins/start/vim-airline"]
+	path = pack/myplugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/myplugins/start/vim-autoformat"]
+	path = pack/myplugins/start/vim-autoformat
+	url = https://github.com/chiel92/vim-autoformat
+[submodule "pack/myplugins/start/vim-css-color"]
+	path = pack/myplugins/start/vim-css-color
+	url = https://github.com/ap/vim-css-color
+[submodule "pack/myplugins/start/vim-fugitive"]
+	path = pack/myplugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/myplugins/start/vim-indent-guides"]
+	path = pack/myplugins/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "pack/myplugins/start/vim-json"]
+	path = pack/myplugins/start/vim-json
+	url = https://github.com/elzr/vim-json.git
+[submodule "pack/myplugins/start/vim-surround"]
+	path = pack/myplugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/myplugins/start/vim-trailing-whitespace"]
+	path = pack/myplugins/start/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "pack/myplugins/start/YouCompleteMe"]
+	path = pack/myplugins/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
