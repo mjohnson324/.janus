@@ -10,12 +10,14 @@ set ruler
 set number
 set backspace=indent,eol,start
 
+" Tabs and no annoying error pings
 set showmatch
 set ignorecase
 set hlsearch
 set incsearch
 set vb t_vb=
 
+" Set tab and indentation behavior
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -27,13 +29,31 @@ set background=dark
 set termguicolors
 colorscheme monokai-phoenix
 
+" Custom Commands
 let mapleader = ","
-" map <Leader>A  oanother line<Esc>
-" <leader>ew expands to :e (directory of current file)/ (open in the current buffer)
-" <leader>es expands to :sp (directory of current file)/ (open in a horizontal split)
-" <leader>ev expands to :vsp (directory of current file)/ (open in a vertical split)
-" <leader>et expands to :tabe (directory of current file)/ (open in a new tab)
-" nmap <F8> :TagbarToggle<CR>
+nmap <Leader><Leader> <C-W>
+nmap <Leader>j :m+1<Enter>
+nmap <Leader>k :m-2<Enter>
+nmap <Leader>> :vertical resize +10 <Enter>
+nmap <Leader>< :vertical resize -10 <Enter>
+nmap <Leader>+ :resize +5 <Enter>
+nmap <Leader>- :resize -5 <Enter>
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" Syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" End word wrapping
+set nowrap
+set nolinebreak
 
 py3 << EOF
 import os
