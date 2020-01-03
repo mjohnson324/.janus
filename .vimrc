@@ -38,6 +38,7 @@ nmap <Leader>> :vertical resize +10 <Enter>
 nmap <Leader>< :vertical resize -10 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
+nmap <Leader>\ :NERDTree <Enter>
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
@@ -54,6 +55,9 @@ let g:syntastic_check_on_wq = 0
 " End word wrapping
 set nowrap
 set nolinebreak
+
+" Nerdtree
+filetype plugin on
 
 py3 << EOF
 import os
