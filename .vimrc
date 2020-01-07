@@ -39,6 +39,7 @@ nmap <Leader>< :vertical resize -10 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
+nmap <silent> <C-l> :nohl<CR><C-l>
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
