@@ -19,12 +19,12 @@ My personal collection and configuration of vim plugins.
 - [delimitmate](https://github.com/raimondi/delimitmate) automatically generate brackets and quotes when working in insert mode.
 - [emmet](https://github.com/mattn/emmet-vim) a plugin for fast html coding. Symtax based closely on css selectors.
 - [fugitive](https://github.com/tpope/vim-fugitive) git integration for vim.
-- [indentline](https://github.com/yggdroot/indentline) a plugin for visualizing indentations.
+- [indent-guides](https://github.com/nathanaelkane/vim-indent-guides) a plugin for visualizing indentations.
 - [json](https://github.com/elzr/vim-json) better syntax highlighting for JSON files.
 - [jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty) jsx syntax highlighting for vim.
 - [nerdcommenter](https://github.com/ddollar/nerdcommenter) a plugin for easy commenting in vim.
 - [NERDTree](https://github.com/scrooloose/nerdtree) a file tree for vim. Opens automatically when vim is called with a directory.
-- [rainbow_csv](https://github.com/mechatroner/rainbow_csv) automatically detects and highlights csv columns.
+- [rainbow-csv](https://github.com/mechatroner/rainbow_csv) automatically detects and highlights csv columns.
 - [Syntastic](https://github.com/scrooloose/syntastic) integrated syntax checking for vim.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
 - [tagbar]( https://github.com/majutsushi/tagbar) a plugin for generating tagbars, files that provide an overview of a project's structure.

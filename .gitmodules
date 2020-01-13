@@ -13,9 +13,6 @@
 [submodule "pack/myplugins/start/emmet-vim"]
 	path = pack/myplugins/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
-[submodule "pack/myplugins/start/indentline"]
-	path = pack/myplugins/start/indentline
-	url = https://github.com/yggdroot/indentline
 [submodule "pack/myplugins/start/nerdcommenter"]
 	path = pack/myplugins/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -58,3 +55,9 @@
 [submodule "pack/myplugins/start/vim-jsx-pretty"]
 	path = pack/myplugins/start/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
+[submodule "pack/myplugins/start/nerdtree-git-plugin"]
+	path = pack/myplugins/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "pack/myplugins/start/vim-indent-guides"]
+	path = pack/myplugins/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git

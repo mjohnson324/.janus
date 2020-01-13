@@ -13,9 +13,9 @@ set backspace=indent,eol,start
 " Tabs and no annoying error pings
 set showmatch
 set ignorecase
-set hlsearch
 set incsearch
 set vb t_vb=
+set hlsearch
 
 " Set tab and indentation behavior
 set tabstop=4
@@ -31,15 +31,19 @@ colorscheme monokai-phoenix
 
 " Custom Commands
 let mapleader = ","
-nmap <Leader><Leader> <C-W>
-nmap <Leader>j :m+1 <Enter>
-nmap <Leader>k :m-2 <Enter>
+nmap <Leader>w <c-w>w
+nmap <Leader>j <c-w>j
+nmap <Leader>k <c-w>k
+nmap <Leader>h <c-w>h
+nmap <Leader>l <c-w>l
+nmap <Leader>t :tabn <Enter>
+nmap <Leader>T :tabp <Enter>
+
 nmap <Leader>> :vertical resize +10 <Enter>
 nmap <Leader>< :vertical resize -10 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
-nmap <Leader>h :noh <Enter>
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
@@ -57,14 +61,11 @@ let g:syntastic_check_on_wq = 0
 set nowrap
 set nolinebreak
 
-" Nerdtree
+" Nerdcommenter
 filetype plugin on
 
-py3 << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-  project_base_dir = os.environ['VIRTUAL_ENV']
-  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-  execfile(activate_this, dict(__file__=activate_this))
-EOF
+" Nerdtree
+let NERDTreeAutoDeleteBuffer = 1
+
+" Indent-Guides
+let g:indent_guides_enable_on_vim_startup = 1
