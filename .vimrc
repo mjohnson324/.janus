@@ -44,6 +44,7 @@ nmap <Leader>< :vertical resize -10 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
+autocmd FileType csv nmap <Leader>s :Select distinct 
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
