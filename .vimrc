@@ -25,9 +25,10 @@ set expandtab
 set autoindent
 set smarttab
 
-autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 set background=dark
 set termguicolors
