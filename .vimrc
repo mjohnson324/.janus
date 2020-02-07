@@ -47,6 +47,7 @@ nmap <Leader>T :tabp <Enter>
 
 nmap <Leader>> :vertical resize +10 <Enter>
 nmap <Leader>< :vertical resize -10 <Enter>
+nmap <Leader>0 :vertical resize 30 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
