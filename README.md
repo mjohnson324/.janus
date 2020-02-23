@@ -30,7 +30,6 @@ My personal collection and configuration of vim plugins.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
 - [tagbar]( https://github.com/majutsushi/tagbar) a plugin for generating tagbars, files that provide an overview of a project's structure.
 - [trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) a plugin that highlights and can remove trailing whitespace.
-- [YouCompleteMe](https://github.com/valloric/youcompleteme) a code-completion engine for Vim. Extensive documentation.
 
 ## Use Details
 
