@@ -16,9 +16,7 @@ My personal collection and configuration of vim plugins.
 - [autoformat](https://github.com/chiel92/vim-autoformat) a plugin for formatting code. Formatters sold separately.
 - [airline](https://github.com/vim-airline/vim-airline) a plugin for visualizing file status. Dynamically shows useful information about the current buffer.
 - [css-color](https://github.com/ap/vim-css-color) a plugin that highlights css colors with their color.
-- [delimitmate](https://github.com/raimondi/delimitmate) automatically generate brackets and quotes when working in insert mode.
 - [emmet](https://github.com/mattn/emmet-vim) a plugin for fast html coding. Symtax based closely on css selectors.
-- [fugitive](https://github.com/tpope/vim-fugitive) git integration for vim.
 - [indent-guides](https://github.com/nathanaelkane/vim-indent-guides) a plugin for visualizing indentations.
 - [json](https://github.com/elzr/vim-json) better syntax highlighting for JSON files.
 - [jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty) jsx syntax highlighting for vim.
@@ -28,7 +26,6 @@ My personal collection and configuration of vim plugins.
 - [rainbow-csv](https://github.com/mechatroner/rainbow_csv) automatically detects and highlights csv columns.
 - [Syntastic](https://github.com/scrooloose/syntastic) integrated syntax checking for vim.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
-- [tagbar]( https://github.com/majutsushi/tagbar) a plugin for generating tagbars, files that provide an overview of a project's structure.
 - [trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) a plugin that highlights and can remove trailing whitespace.
 
 ## Use Details
@@ -37,8 +34,6 @@ My personal collection and configuration of vim plugins.
     - `:Autoformat` to format the current buffer. Requires external formatters.
 - **Emmet:**
     - Complete commands with `<CTRL>y,` to add a snippet.
-- **Fugitive:**
-    - Run git commands starting with `:G`.
 - **NerdCommenter**:
     - `<leader>cc`: Comment out the current line(s)
     - `<leader>c<space>`: Toggle comments on the selected lines
@@ -56,7 +51,5 @@ My personal collection and configuration of vim plugins.
 - **Syntastic**:
     - `:SyntasticCheck` to run a manual syntax check
     - `:SyntasticReset` to turn off error notifiers and reset the error list
-- **Tagbar:**
-    - Press F8 to toggle tagbar view
 - **Trailing-whitespace**:
     - `:FixWhitespace` to remove all offending whitespace automatically

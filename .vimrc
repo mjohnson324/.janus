@@ -53,9 +53,6 @@ nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
 autocmd FileType csv nmap <Leader>s :Select distinct 
 
-" Tagbar
-nmap <F8> :TagbarToggle<CR>
-
 " Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
