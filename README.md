@@ -24,7 +24,6 @@ My personal collection and configuration of vim plugins.
 - [NERDTree](https://github.com/scrooloose/nerdtree) a file tree for vim. Opens automatically when vim is called with a directory.
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) a plugin for viewing the git status of files in NERDTree.
 - [rainbow-csv](https://github.com/mechatroner/rainbow_csv) automatically detects and highlights csv columns.
-- [Syntastic](https://github.com/scrooloose/syntastic) integrated syntax checking for vim.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
 - [trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) a plugin that highlights and can remove trailing whitespace.
 
@@ -48,8 +47,5 @@ My personal collection and configuration of vim plugins.
     - `ysiw<bracket>` to surround a word
     - `yss<bracket>` to surround a line
     - `S<bracket>` in visual mode to surround what is highlighted.
-- **Syntastic**:
-    - `:SyntasticCheck` to run a manual syntax check
-    - `:SyntasticReset` to turn off error notifiers and reset the error list
 - **Trailing-whitespace**:
     - `:FixWhitespace` to remove all offending whitespace automatically

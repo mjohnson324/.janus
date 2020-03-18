@@ -16,9 +16,6 @@
 [submodule "pack/myplugins/start/nerdtree"]
 	path = pack/myplugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pack/myplugins/start/syntastic"]
-	path = pack/myplugins/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "pack/myplugins/start/vim-airline"]
 	path = pack/myplugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
