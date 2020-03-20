@@ -65,3 +65,5 @@ let NERDTreeAutoDeleteBuffer = 1
 
 " Indent-Guides
 let g:indent_guides_enable_on_vim_startup = 1
+
+"let g:airline#extensions#syntastic#enabled = 1
