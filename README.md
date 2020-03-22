@@ -8,8 +8,7 @@ My personal collection and configuration of vim plugins.
 2. To add new plugins: `git submodule add <repo>`
 3. To remove plugins: `git rm <repo-directory>`
 4. To update plugins and install dependencies: `git submodule update --init --recursive`
-5. For YouCompleteMe: consult the installation guide. You will need admin privileges to complete setup.
-6. Run `:helptags ALL` in vim to set up help documentation.
+5. Run `:helptags ALL` in vim to set up help documentation.
 
 ## Plugins
 
