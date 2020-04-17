@@ -9,6 +9,8 @@ set history=50
 set ruler
 set number
 set backspace=indent,eol,start
+set cursorline
+set cursorcolumn
 
 " Tabs and no annoying error pings
 set showmatch
@@ -66,4 +68,12 @@ let NERDTreeAutoDeleteBuffer = 1
 " Indent-Guides
 let g:indent_guides_enable_on_vim_startup = 1
 
-"let g:airline#extensions#syntastic#enabled = 1
+" Airline and Syntastic
+let g:airline#extensions#syntastic#enabled = 0
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_wq = 0

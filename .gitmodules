@@ -46,3 +46,9 @@
 [submodule "pack/myplugins/start/vim-indent-guides"]
 	path = pack/myplugins/start/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "pack/myplugins/start/syntastic"]
+	path = pack/myplugins/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "pack/myplugins/start/vim-unimpaired"]
+	path = pack/myplugins/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
