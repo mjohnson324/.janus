@@ -32,6 +32,7 @@ autocmd FileType javascriptreact setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType xml setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 set background=dark
 set termguicolors
@@ -75,5 +76,6 @@ let g:airline#extensions#syntastic#enabled = 0
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_auto_loc_list = 0
+let g:syntastic_auto_loc_list = 2
 let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1

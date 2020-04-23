@@ -42,6 +42,11 @@ My personal collection and configuration of vim plugins.
     - `:RainbowDelim` to manually activate rainbow hightlighting
     - `:NoRainbowDelim` to deactivate it
     - `:CSVLint` to check csv files.
+- **Syntastic:**
+    - `:SyntasticCheck` to check a file manually
+    - `:SyntasticReset` to clear the error list
+    - `:Errors` to open the location-list window (it lists the errors)
+    - `:lclose` to close the location-list window
 - **Surround:**
     - `cs<old-bracket><new-bracket>` to substitute the nearest brackets.
     - `ds<bracket>` to delete the nearest brackets
