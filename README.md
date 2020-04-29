@@ -55,3 +55,9 @@ My personal collection and configuration of vim plugins.
     - `S<bracket>` in visual mode to surround what is highlighted.
 - **trailing-whitespace**:
     - `:FixWhitespace` to remove all offending whitespace automatically
+- **unimpaired:**
+    - `[f/]f` to cycle through files in the current directory alphabetically
+    - `[<space>/]<space>` to add blank lines above/below the cursor
+    - `[e/]e to move the current line above/below
+    - `yow` to toggle word wrapping
+    - `yov` to toggle virtualedit. Permits moving cursor anywhere; square copies!
