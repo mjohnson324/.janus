@@ -54,6 +54,8 @@ nmap <Leader>0 :vertical resize 30 <Enter>
 nmap <Leader>+ :resize +5 <Enter>
 nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
+
+nmap <Leader>r :SyntasticReset <Enter>
 autocmd FileType csv nmap <Leader>s :Select distinct 
 
 " End word wrapping
@@ -79,3 +81,5 @@ set statusline+=%*
 let g:syntastic_auto_loc_list = 2
 let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_python_python_exec = 'python3'
+let g:syntastic_python_checkers = ['pylint']
