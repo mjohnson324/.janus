@@ -34,9 +34,6 @@
 [submodule "pack/myplugins/start/vim-trailing-whitespace"]
 	path = pack/myplugins/start/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
-[submodule "pack/myplugins/start/rainbow_csv"]
-	path = pack/myplugins/start/rainbow_csv
-	url = https://github.com/mechatroner/rainbow_csv
 [submodule "pack/myplugins/start/vim-jsx-pretty"]
 	path = pack/myplugins/start/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
