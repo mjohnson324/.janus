@@ -1,5 +1,4 @@
 set nomodeline
-syntax on
 set nocompatible
 set foldmethod=indent
 set foldlevel=99
@@ -56,7 +55,6 @@ nmap <Leader>- :resize -5 <Enter>
 nmap <Leader>\ :NERDTree <Enter>
 
 nmap <Leader>r :SyntasticReset <Enter>
-autocmd FileType csv nmap <Leader>s :Select distinct 
 
 " End word wrapping
 set nowrap
@@ -83,3 +81,5 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_python_python_exec = 'python3'
 let g:syntastic_python_checkers = ['pylint']
+
+syntax on
