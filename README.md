@@ -15,6 +15,7 @@ My personal collection and configuration of vim plugins.
 - [autoformat](https://github.com/chiel92/vim-autoformat) a plugin for formatting code. Formatters sold separately.
 - [airline](https://github.com/vim-airline/vim-airline) a plugin for visualizing file status. Dynamically shows useful information about the current buffer.
 - [css-color](https://github.com/ap/vim-css-color) a plugin that highlights css colors with their color.
+- [csv.vim](https://github.com/chrisbra/csv.vim) automatically detects and highlights csv columns.
 - [emmet](https://github.com/mattn/emmet-vim) a plugin for fast html coding. Symtax based closely on css selectors.
 - [indent-guides](https://github.com/nathanaelkane/vim-indent-guides) a plugin for visualizing indentations.
 - [json](https://github.com/elzr/vim-json) better syntax highlighting for JSON files.
@@ -22,7 +23,6 @@ My personal collection and configuration of vim plugins.
 - [nerdcommenter](https://github.com/ddollar/nerdcommenter) a plugin for easy commenting in vim.
 - [NERDTree](https://github.com/scrooloose/nerdtree) a file tree for vim. Opens automatically when vim is called with a directory.
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) a plugin for viewing the git status of files in NERDTree.
-- [rainbow-csv](https://github.com/mechatroner/rainbow_csv) automatically detects and highlights csv columns.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
 - [syntastic](https://github.com/vim-syntastic/syntastic) syntax checking in vim.
 - [trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) a plugin that highlights and can remove trailing whitespace.
@@ -38,10 +38,6 @@ My personal collection and configuration of vim plugins.
     - `<leader>cc`: Comment out the current line(s)
     - `<leader>c<space>`: Toggle comments on the selected lines
     - `<leader>cA`: Add comments to the end of the line
-- **Rainbow_CSV**:
-    - `:RainbowDelim` to manually activate rainbow hightlighting
-    - `:NoRainbowDelim` to deactivate it
-    - `:CSVLint` to check csv files.
 - **Syntastic:**
     - `:SyntasticCheck` to check a file manually
     - `:SyntasticReset` to clear the error list

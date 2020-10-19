@@ -1,7 +1,7 @@
 set nomodeline
 set nocompatible
 set foldmethod=indent
-set foldlevel=99
+set foldlevelstart=99
 set undolevels=1000
 set encoding=UTF-8
 set history=50
