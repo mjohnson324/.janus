@@ -23,6 +23,7 @@ My personal collection and configuration of vim plugins.
 - [nerdcommenter](https://github.com/ddollar/nerdcommenter) a plugin for easy commenting in vim.
 - [NERDTree](https://github.com/scrooloose/nerdtree) a file tree for vim. Opens automatically when vim is called with a directory.
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) a plugin for viewing the git status of files in NERDTree.
+- [polyglot](https://github.com/sherun/vim-polyglot) a collection of language packages for vim. Provides syntax highlighting among other things.
 - [surround](https://github.com/tpope/vim-surround) vim commands to augment working with brackets, quotes, and xml tags. use the starting bracket to add with space, the ending one for no space.
 - [syntastic](https://github.com/vim-syntastic/syntastic) syntax checking in vim.
 - [trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace) a plugin that highlights and can remove trailing whitespace.
