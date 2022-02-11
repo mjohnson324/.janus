@@ -19,19 +19,14 @@ set vb t_vb=
 set hlsearch
 
 " Set tab and indentation behavior
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set autoindent
 set smarttab
 
-autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType javascriptreact setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType xml setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType python setlocal tabstop=4 softtabstop=4 shiftwidth=4
 
 set background=dark
 set termguicolors
@@ -39,22 +34,30 @@ colorscheme monokai-phoenix
 
 " Custom Commands
 let mapleader = ","
-nmap <Leader>w <c-w>w
-nmap <Leader>j <c-w>j
-nmap <Leader>k <c-w>k
-nmap <Leader>h <c-w>h
-nmap <Leader>l <c-w>l
-nmap <Leader>t :tabn <Enter>
-nmap <Leader>T :tabp <Enter>
 
-nmap <Leader>> :vertical resize +10 <Enter>
-nmap <Leader>< :vertical resize -10 <Enter>
-nmap <Leader>0 :vertical resize 30 <Enter>
-nmap <Leader>+ :resize +5 <Enter>
-nmap <Leader>- :resize -5 <Enter>
-nmap <Leader>\ :NERDTree <Enter>
+" Navigate tabs
+nn <Leader>w <c-w>w
+nn <Leader>j <c-w>j
+nn <Leader>k <c-w>k
+nn <Leader>h <c-w>h
+nn <Leader>l <c-w>l
+nn <Leader>t :tabn <Enter>
+nn <Leader>T :tabp <Enter>
 
-nmap <Leader>r :SyntasticReset <Enter>
+" resize windows
+nn <Leader>> :vertical resize +10 <Enter>
+nn <Leader>< :vertical resize -10 <Enter>
+nn <Leader>0 :vertical resize 30 <Enter>
+nn <Leader>+ :resize +5 <Enter>
+nn <Leader>- :resize -5 <Enter>
+nn <Leader>\ :NERDTree <Enter>
+
+" issue commands
+nn <Leader><Space> :FixWhitespace <Enter>
+nn <Leader>r :SyntasticReset <Enter>
+
+" Key Combos
+vn <Leader>y "*y
 
 " End word wrapping
 set nowrap
@@ -79,7 +82,7 @@ set statusline+=%*
 let g:syntastic_auto_loc_list = 2
 let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_python_python_exec = 'python3'
-let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_python_python_exec = 'python'
+let g:syntastic_python_checkers = ['pylint', 'flake8', 'bandit', 'mypy']
 
 syntax on
